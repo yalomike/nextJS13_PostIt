@@ -24,6 +24,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/layout.jsx", "app/auth/QueryWrapper.tsx", "pages/api/posts/addPost.ts", "ppages/api/posts/getPost.ts", "app/page.jsx", "prisma/client.jsx", "app/types/Posts.jsx"],
   "exclude": ["node_modules"]
 }
