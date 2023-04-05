@@ -28,7 +28,9 @@ export default function AddComment({id} : PostProps) {
         async (data: Comment) =>  
         await axios.post('/api/posts/addComments', {
             data,
+            
         }),
+        
         {
             onError: (error) => {
                 if (error instanceof AxiosError) {
@@ -44,7 +46,6 @@ export default function AddComment({id} : PostProps) {
                 }, 
         }
     )
-
 
 
     const submitComment = async (e: React.FormEvent) => {
